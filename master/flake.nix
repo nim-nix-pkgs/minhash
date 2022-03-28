@@ -11,7 +11,6 @@
   inputs.src-minhash-master.ref   = "refs/heads/master";
   inputs.src-minhash-master.owner = "bung87";
   inputs.src-minhash-master.repo  = "minhash";
-  inputs.src-minhash-master.dir   = "";
   inputs.src-minhash-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
